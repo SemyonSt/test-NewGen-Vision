@@ -1,0 +1,33 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "filterPrice": "src/filter.js"
+  },
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SemyonSt/test-NewGen-Vision.git"
+  },
+  "author": "Semyon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SemyonSt/test-NewGen-Vision/issues"
+  },
+  "homepage": "https://github.com/SemyonSt/test-NewGen-Vision#readme",
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.17.12",
+    "eslint": "^8.15.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "jest": "^28.1.0"
+  },
+  "dependencies": {
+    "ci": "^2.2.0"
+  }
+}
