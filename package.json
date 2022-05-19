@@ -28,6 +28,8 @@
     "jest": "^28.1.0"
   },
   "dependencies": {
-    "ci": "^2.2.0"
+    "add": "^2.0.6",
+    "ci": "^2.2.0",
+    "eslint-plugin-jest": "^26.2.2"
   }
 }
