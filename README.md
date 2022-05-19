@@ -1,3 +1,4 @@
+[![CI](https://github.com/SemyonSt/test-NewGen-Vision/actions/workflows/main.yml/badge.svg)](https://github.com/SemyonSt/test-NewGen-Vision/actions/workflows/main.yml)
 <a href="https://codeclimate.com/github/SemyonSt/test-NewGen-Vision/maintainability"><img src="https://api.codeclimate.com/v1/badges/60ca5da6c7f0f112c4fb/maintainability" /></a>
 <a href="https://codeclimate.com/github/SemyonSt/test-NewGen-Vision/test_coverage"><img src="https://api.codeclimate.com/v1/badges/60ca5da6c7f0f112c4fb/test_coverage" /></a>
 # test-NewGen-Vision
