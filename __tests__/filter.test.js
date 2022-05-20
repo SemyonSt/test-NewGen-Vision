@@ -13,13 +13,14 @@ test('from null to max', () => {
     { name: 'Courses in USA', prices: [200, null] },
   ];
   const result2 = [
+    { name: 'Courses in USA', prices: [200, null] },
     { name: 'Courses in Italy', prices: [100, 200] },
     { name: 'Courses in Kazakhstan', prices: [56, 324] },
     { name: 'Courses in China', prices: [50, 250] },
-    { name: 'Courses in France', prices: [null, null] },
-    { name: 'Courses in Russia', prices: [null, 400] },
     { name: 'Courses in England', prices: [0, 100] },
-    { name: 'Courses in USA', prices: [200, null] },
+    { name: 'Courses in Russia', prices: [null, 400] },
+    { name: 'Courses in France', prices: [null, null] },
+
   ];
   const filter = filterCourses(data, requiredRange1);
   expect(sortPrice(filter, 'minToMax')).toEqual(result);
@@ -42,9 +43,9 @@ test('from to', () => {
     { name: 'Courses in Italy', prices: [100, 200] },
     { name: 'Courses in Kazakhstan', prices: [56, 324] },
     { name: 'Courses in China', prices: [50, 250] },
-    { name: 'Courses in France', prices: [null, null] },
-    { name: 'Courses in Russia', prices: [null, 400] },
     { name: 'Courses in England', prices: [0, 100] },
+    { name: 'Courses in Russia', prices: [null, 400] },
+    { name: 'Courses in France', prices: [null, null] },
   ];
   const filter = filterCourses(data, requiredRange2);
   expect(sortPrice(filter, 'minToMax')).toEqual(result);
@@ -68,8 +69,9 @@ test('from max to null', () => {
     { name: 'Courses in Italy', prices: [100, 200] },
     { name: 'Courses in Kazakhstan', prices: [56, 324] },
     { name: 'Courses in China', prices: [50, 250] },
-    { name: 'Courses in France', prices: [null, null] },
     { name: 'Courses in Russia', prices: [null, 400] },
+    { name: 'Courses in France', prices: [null, null] },
+
   ];
   const filter = filterCourses(data, requiredRange3);
   expect(sortPrice(filter, 'minToMax')).toEqual(result);
@@ -94,9 +96,9 @@ test('from null to null', () => {
     { name: 'Courses in Italy', prices: [100, 200] },
     { name: 'Courses in Kazakhstan', prices: [56, 324] },
     { name: 'Courses in China', prices: [50, 250] },
-    { name: 'Courses in France', prices: [null, null] },
-    { name: 'Courses in Russia', prices: [null, 400] },
     { name: 'Courses in England', prices: [0, 100] },
+    { name: 'Courses in Russia', prices: [null, 400] },
+    { name: 'Courses in France', prices: [null, null] },
   ];
   const filter = filterCourses(data, requiredRange4);
   expect(sortPrice(filter, 'minToMax')).toEqual(result);
