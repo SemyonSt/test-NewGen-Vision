@@ -1,5 +1,6 @@
 import data from '../src/data.js';
-import { filterCourses, sortPrice } from '../src/filter.js';
+import filterCourses from '../src/filter.js';
+import sortPrice from '../src/sort.js';
 
 test('from null to max', () => {
   const requiredRange1 = [null, 200];
